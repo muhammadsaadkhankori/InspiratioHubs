@@ -1,4 +1,4 @@
-# ZapAura
+# Inspiratio-mozillabase
 
 ![ZapAura Logo](https://github.com/EtherealEngine/etherealengine/assets/5104160/878a74b0-11eb-463d-a70e-6cb7055683eb)
 
