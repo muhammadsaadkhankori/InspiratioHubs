@@ -1,47 +1,37 @@
-# Inspiratio-mozillabase
+# Inspiratio
 
-![ZapAura Logo](https://github.com/EtherealEngine/etherealengine/assets/5104160/878a74b0-11eb-463d-a70e-6cb7055683eb)
+License: MPL 2.0 | Build Status | Discord
 
-**Explore, connect, create: The Metaverse Awaits**
+This is the client-side code for Inspiratio, an online 3D collaboration platform that operates on desktop, mobile, and VR platforms.
 
-## Table of Contents
+## Learn more about Inspiratio
 
-- [Installation](#installation)
-- [Background](#background)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Inspiratio is a platform designed for dynamic online collaboration in a 3D environment. It's versatile and accessible across a range of devices, providing a unique space for creativity and teamwork.
 
-## Installation
+## Getting Started
 
-To get started with ZapAura, follow these steps:
+To start using Inspiratio on your own servers, check out our cloud-based solution, Inspiratio Cloud.
 
-### Download Docker Desktop
+If you're looking to deploy a custom client to your existing Inspiratio Cloud instance, please refer to [this guide](#).
 
-- **For Windows and macOS:** 
-  - Visit the [Docker Desktop website](https://www.docker.com/products/docker-desktop) and download the appropriate version for your operating system.
+For those interested in contributing to the main fork of the Inspiratio client, please see our [contributor guide](#).
 
-- **For Linux:** 
-  - Docker Desktop is not available for Linux. Instead, install Docker Engine. Follow the instructions in the [Docker Engine installation guide](https://docs.docker.com/engine/install/).
+If you're eager to understand how Inspiratio works and wish to make your own modifications, our Quick Start Guide is the perfect place to begin.
 
-### Install Windows Subsystem for Linux (WSL) on Windows
+## Quick Start
 
-- **Windows Users Only:** 
-  - If you're using Windows, you'll need to install WSL to work with Docker and Linux containers. 
-  - Follow the [WSL installation instructions](https://docs.microsoft.com/en-us/windows/wsl/install).
+To set up Inspiratio:
 
-## Background
+1. **Install NodeJS:** We recommend version 16.16.0, as it's what our build servers use. For managing multiple versions of Node, consider using tools like NVM.
 
-[Provide background information about your project here]
+2. **Run the Following Commands:**
 
-## Usage
+    ```bash
+    git clone https://github.com/[YourRepository]/Inspiratio.git
+    cd Inspiratio
+    # nvm use v16.16.0 # if using NVM
+    npm ci
+    npm run dev
+    ```
 
-[Instructions on how to use the project]
-
-## Contributing
-
-[Details on how to contribute to the project]
-
-## License
-
-[Information about the project's license]
+This quick start guide provides a straightforward path to get Inspiratio up and running on your system.
